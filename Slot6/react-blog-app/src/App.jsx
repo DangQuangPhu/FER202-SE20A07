@@ -5,6 +5,7 @@ import PostList from './pages/PostList';
 import PostDetail from './pages/PostDetail';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
+import RegistrationForm from './components/RegistrationForm';
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
         <Route path='/posts'     element={<PostList />} />
         <Route path='/posts/:id' element={<PostDetail />} />
         <Route path='/about'     element={<About />} />
+        <Route path='/register'  element={<RegistrationForm />} />
         <Route path='*'          element={<NotFound />} />
       </Routes>
+    
     </BrowserRouter>
   );
 }
