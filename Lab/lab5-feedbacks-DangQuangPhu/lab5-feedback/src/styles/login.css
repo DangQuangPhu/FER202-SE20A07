@@ -1,0 +1,33 @@
+body {
+  background-color: #f4f7f6;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg,  #ffffff 100%);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+.login-card h2 {
+  color: #4a5568;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #2e69ff 100%);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(118, 75, 162, 0.4);
+}
